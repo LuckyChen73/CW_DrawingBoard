@@ -15,6 +15,7 @@
 		1F0BC8CE1E4F3ACB0017F59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BC8CC1E4F3ACB0017F59A /* LaunchScreen.storyboard */; };
 		1F0BC8D71E4F3FE80017F59A /* HMRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BC8D61E4F3FE80017F59A /* HMRootView.m */; };
 		1F0BC8DA1E4F4DA20017F59A /* HMBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BC8D91E4F4DA20017F59A /* HMBezierPath.m */; };
+		1FBE34E51E753F12006F1366 /* 小画板.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1FBE34E41E753F12006F1366 /* 小画板.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1F0BC8D61E4F3FE80017F59A /* HMRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRootView.m; sourceTree = "<group>"; };
 		1F0BC8D81E4F4DA20017F59A /* HMBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBezierPath.h; sourceTree = "<group>"; };
 		1F0BC8D91E4F4DA20017F59A /* HMBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBezierPath.m; sourceTree = "<group>"; };
+		1FBE34E41E753F12006F1366 /* 小画板.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "小画板.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		1F0BC8BD1E4F3ACB0017F59A /* 小画板 */ = {
 			isa = PBXGroup;
 			children = (
+				1FBE34E41E753F12006F1366 /* 小画板.gif */,
 				1F0BC8C11E4F3ACB0017F59A /* AppDelegate.h */,
 				1F0BC8C21E4F3ACB0017F59A /* AppDelegate.m */,
 				1F0BC8C41E4F3ACB0017F59A /* ViewController.h */,
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBE34E51E753F12006F1366 /* 小画板.gif in Resources */,
 				1F0BC8CE1E4F3ACB0017F59A /* LaunchScreen.storyboard in Resources */,
 				1F0BC8CB1E4F3ACB0017F59A /* Assets.xcassets in Resources */,
 				1F0BC8C91E4F3ACB0017F59A /* Main.storyboard in Resources */,
@@ -319,6 +323,7 @@
 				1F0BC8D41E4F3ACB0017F59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
